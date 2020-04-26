@@ -7,6 +7,7 @@ use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\App;
 
 class ServiceProvider extends LaravelServiceProvider
 {
