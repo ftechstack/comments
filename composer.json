@@ -1,13 +1,13 @@
 {
-    "name": "laravelista/comments",
+    "name": "ftechstack/comments",
     "description": "Comments for Laravel.",
     "keywords": ["laravel", "comments"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Mario Bašić",
-            "email": "mario@laravelista.hr",
-            "homepage": "https://laravelista.hr"
+            "name": "Frank",
+            "email": "info@ftechstack.com",
+            "homepage": "https://ftechstack.com"
         }
     ],
     "require": {
