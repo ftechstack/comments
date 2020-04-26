@@ -1,5 +1,5 @@
 {
-  "name": "ftechstack/comments",
+  "name": "@ftechstack/comments",
   "version": "3.4.2",
   "description": "Fork of Laravelista/comments 3.4.2",
   "main": "index.js",
