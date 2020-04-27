@@ -15,9 +15,9 @@ return [
      */
     'permissions' => [
         'create-comment' => 'Laravelista\Comments\CommentPolicy@create',
-        'delete-comment' => 'Laravelista\Comments\CommentPolicy@delete',
-        'edit-comment' => 'Laravelista\Comments\CommentPolicy@update',
-        'reply-to-comment' => 'Laravelista\Comments\CommentPolicy@reply',
+        //'delete-comment' => 'Laravelista\Comments\CommentPolicy@delete',
+        //'edit-comment' => 'Laravelista\Comments\CommentPolicy@update',
+        //'reply-to-comment' => 'Laravelista\Comments\CommentPolicy@reply',
     ],
 
     /**
@@ -57,7 +57,7 @@ return [
      * Visitors will be asked to provide their name and email
      * address in order to post a comment.
      */
-    'guest_commenting' => false,
+    'guest_commenting' => true,
     
     	/**
      * Set this option to `true` to enable soft deleting of comments.

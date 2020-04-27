@@ -42,7 +42,7 @@ class CommentController extends Controller implements CommentControllerInterface
                 'guest_name' => 'required|string|max:50',
 	    ];
 		
-	    if(Config::get(''comments.guest_email') == true) {
+	    if(Config::get('comments.guest_email') == true) {
                 $guest_rules[] = ['guest_email' => 'required|string|email|max:255'];
 	    }
             
